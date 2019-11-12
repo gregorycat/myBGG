@@ -1,0 +1,33 @@
+{
+  "name": "myBGG",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gregorycat/myBGG.git",
+  "author": "Grégory CAT <gregory.cat.gc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "webpack-dev-server --mode=development --open",
+    "prod": "webpack --mode=production --open"
+  },
+  "dependencies": {
+    "file-loader": "^4.2.0",
+    "path": "^0.12.7",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
