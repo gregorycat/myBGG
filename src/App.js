@@ -1,7 +1,7 @@
 import React from "react";
-class App extends React.Component {
-  render() {
-    return <div>My BGG</div>;
-  }
-}
+
+const App = () => {
+
+  return <div>My BGG</div>;
+};
 export default App;
