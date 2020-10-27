@@ -1,6 +1,9 @@
 import app from '../server';
 import { listBoardGames, loadOwnGamesForUser } from './BoardGameController';
 
+/**
+ * Init the bordgame list
+ */
 app.post('/api/boardgames/init', (req, res) => {
     console.log('Init boardgame list');
 
