@@ -18,6 +18,10 @@ const BGG_ENDPOINTS = {
  * @param {string} userName The BGG user name.
  */
 const loadOwnGamesForUser = async (userName, res) => {
+    if (!userName) {
+        return;
+    }
+
     const response = await fetch(`${BGG_API_BASE_URL}/${BGG_ENDPOINTS.collection}/${userName}?grouped=true`, {
         mode: 'cors',
     });
